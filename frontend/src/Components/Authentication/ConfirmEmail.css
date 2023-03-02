@@ -1,0 +1,45 @@
+.confirmContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 90vh; */
+    flex-direction: column;
+    padding-top: 1rem;
+    gap: 6rem;
+    
+}
+
+.confirmBox{
+    
+    padding: 1rem;
+    background-color: rgb(255 255 255 / 82%);
+    border-radius: 1rem;
+    width: 45rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+}
+
+.titleVerify {
+    color: #1565c0;
+    text-align: center;
+    font-weight: 400;
+    margin-bottom: 1rem;
+  }
+  .verifyMailInput{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  }
+  .changePasswordInput{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  }

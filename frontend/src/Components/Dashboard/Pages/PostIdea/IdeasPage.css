@@ -1,0 +1,129 @@
+.titleLabel {
+    min-height: 90px;
+    text-align: center;
+    padding-top: 40px;
+    margin-bottom: 5px;
+}
+
+.allComponentsContainer {
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid green; */
+    display: block;
+}
+
+.rowFieldsContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.leftSideComponents,
+.rightSideComponents,
+.bottomSideComponents {
+    display: flex;
+    flex-direction: row;
+}
+
+.leftLabelsDiv, .bottomLabelsDiv {
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    margin-right: 15px;
+    width: 130px;
+}
+
+.leftLabelsClass, .bottomLabelsClass {
+    margin-bottom: 32px;
+    text-align: right;
+}
+
+.leftInputsClass,
+.rightInputsClass,
+.bottomInputsClass {
+    font-size: 17px;
+    padding: 5px;
+    margin-bottom: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: white;
+}
+
+
+.leftInputsClass:focus,
+.rightInputsClass:focus,
+.bottomInputsClass:focus {
+    border: 2px solid #323232;
+}
+
+.leftInputsDiv, .bottomInputsDiv {
+    display: flex;
+    flex-direction: column;
+    width: 230px;
+}
+
+
+
+
+/* Right Side */
+.rightLabelsDiv {
+    display: flex;
+    flex-direction: column;
+    margin-right: 15px;
+    width: 130px;
+}
+
+.rightInputsDiv {
+    display: flex;
+    flex-direction: column;
+    width: 230px;
+    margin-right: 150px;
+}
+
+.rightLabelsClass {
+    margin-bottom: 32px;
+    text-align: right;
+}
+
+
+/* bottom side */
+.bottomSideComponents {
+    display: flex;
+    flex-direction: row;
+    /* border: 2px solid green; */
+}
+
+#descTextarea{
+    width: 100%;
+    height: 220px;
+    /* position: fixed; */
+}
+
+#titleTextbox{
+    width: 32.5%;
+}
+
+.bottomInputsDiv{
+    /* border: 2px solid red; */
+    width: 55%;
+}
+
+/* Buttons */
+.buttonsFieldComponents{
+    margin-top: 15px;
+    width: 100%;
+    bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* border: 2px solid red; */
+}
+
+.leftSideButtons{
+    margin-left: 160px;
+    display: flex;
+}
+
+.rightSideButtons{
+    margin-right: 100px;
+}

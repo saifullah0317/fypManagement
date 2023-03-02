@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Title Styling */
+.title {
+    min-height: 80px;
+    text-align: center;
+    padding-top: 40px;
+    margin-bottom: 0px;
+    /* border: 1px solid red; */
+}
+
+.title #label {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+/* Serach Fields Styling */
+.searchFields {
+    min-height: 40px;
+    padding-top: 0px;
+    margin: 20px;
+    /* border: 2px solid green; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#searchInput {
+    width: 100%;
+    height: 25px;
+    border-radius: 5px;
+    margin-left: 7px;
+    /* border: 2px solid black; */
+}
+
+#searchInput:focus {
+    border: 2px solid #323232;
+}
+
+.searchInputDiv {
+    margin-top: 5px;
+    display: flex;
+    margin-left: 20px;
+    width: 25%;
+}
+
+/* Table Styling */
+.ideasTable {
+    margin: 0 2px 20px 20px;
+    max-width: 97%;
+    max-height: 410px;
+    min-height: 410px;
+    /* border: 2px solid red; */
+}
+
+.tableBody{
+    min-Height: 410px;
+    max-Height: 410px;
+}
+
+/* Button Styling */
+.btn {
+    margin-right: 20px;
+}
+
+.tablePagination{
+    position: relative;
+    bottom: 20px;       /* positioning */
+    margin-left: 20px;
+    width: 97%;
+}
